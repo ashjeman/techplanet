@@ -1,4 +1,4 @@
-# techplanet
+# techplanet (Hardware store)
 This is a computer hardware store
 
 ## Group Members
