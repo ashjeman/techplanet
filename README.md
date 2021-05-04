@@ -1,5 +1,5 @@
 # TECHPLANET
-A hardware store with computer components catalogue
+A platform with various hardware stores with computer components catalogue
 
 ## Group Name
 Group D
