@@ -7,7 +7,7 @@ Group D
 ## Group Members
 NAME                 | MATRIC NO | USERNAME
 -------------------- | --------- | ----
-Mohammad Mu'izzuddin | 1918855   | @mohdmuiz11
+ Mu'izzuddin | 1918855   | @mohdmuiz11
 Airil Afiq           | 1919241   | @airilafiq
 Ahmad Thaqif         | 2010203   | @AhmadThaqif
 Asyraf Azman         | 1917565   | @ashjeman
