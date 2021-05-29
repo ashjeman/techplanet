@@ -214,7 +214,7 @@ button {
 .header_section{
 	width: 100%;
 	float: left;
-	background-image: url(../images/banner.png);
+	background-image: url(../images/main/banner.webp);
 	height: auto;
 	padding: 20px 0px;
 	background-size: 100%;
@@ -223,11 +223,11 @@ button {
 
 .padding_0{ width: 100%; float: left; }
 
-.mens_taital{ width: 100%; float: left; color: #908d92; font-size: 14pt; }
+.mens_taital{ width: 100%; float: left; color: #ffffff; font-size: 14pt; }
 .mens_taital_2 {
     width: 100%;
     float: left;
-    color: #908d92;
+    color: #ffffff;
     font-size: 14pt;
     margin-top: 150px;
 }
@@ -267,14 +267,14 @@ button {
 	width: 100%;
 	float: left;
 	font-size: 30pt;
-	color: #db5660;
+	color: #ffffff;
 }
 
 .mens_text{
 	width: 100%;
 	float: left;
 	font-size: 39pt;
-	color: #fdfcfc;
+	color: #000000;
 	line-height: 40px;
 }
 .lorem_text{
@@ -413,7 +413,7 @@ body{
 	margin-left: -60px;
 }
 
-.shoes-img{
+.techplanet-home-items{ /* formerly shoes_img */
 	width: 100%;
 	float: left;
 	text-align: center;
@@ -796,8 +796,30 @@ a:hover {
     background: #0c0116;
 }
 
-.col-sm-3 {
-    text-align: center;
+/* Custom css format for techplanet use */
+
+.techplanet-home {
     margin: 0 auto;
     padding: 2em 0;
+    min-width: 48%;
+}
+
+.techplanet-title {
+    float: right;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 30px 0;
+}
+
+.techplanet-logo {
+    float: left;
+    max-width: 10em;
+}
+
+.techplanet-bg-carousel {
+    background-color: rgba(92, 148, 194, 0.7);
+}
+
+.techplanet-preview {
+    padding-bottom: 30px;
 }
