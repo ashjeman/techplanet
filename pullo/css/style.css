@@ -309,10 +309,10 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .carousel-inner,
 .carousel,
 .carousel-item,
-.container,
 .fill {
   height: 100%;
   width: 100%;
@@ -326,6 +326,45 @@ body {
   padding: 0;
 }
 
+.container{
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.image_div{
+  height: 500px;
+  width: 500px;
+
+}
+
+.product_spec{
+  padding-left: 100px;
+  height: 500px;
+  width: 500px;
+}
+
+.details{
+  height: 100;
+  width: 100;
+  display: flex;
+}
+
+.item_name{
+  width: 100%;
+  float: left;
+  font-size: 32pt;
+  color: #0c0116;
+}
+
+.spec_details{
+  font-size: 12pt;
+  color: #272222;
+}
+.btn_margin{
+  margin: 30px;
+}
 /*------------------------------ vertical bootstrap slider----------------------------*/
 
 .carousel-inner > .carousel-item.carousel-item-next,
@@ -476,11 +515,11 @@ body {
   padding-bottom: 70px;
 }
 
-/* .shoes-img3 {
+.item_image {
   width: 100%;
   float: left;
   text-align: center;
-} */
+}
 
 .collection_text {
   width: 100%;
@@ -489,7 +528,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 40px;
-  background-color: #db5660;
+  background-color: #35B3E5;
   padding: 30px 0px;
 }
 
