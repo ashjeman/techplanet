@@ -224,32 +224,20 @@ button {
   float: left;
 }
 
-.mens_taital {
-  width: 100%;
-  float: left;
-  color: #ffffff;
-  font-size: 14pt;
-}
-.mens_taital_2 {
-  width: 100%;
-  float: left;
-  color: #ffffff;
-  font-size: 14pt;
-  margin-top: 150px;
-}
 .page_no {
   width: 28%;
   /* margin: 0 auto; */
   text-align: center;
   color: #ffffff;
-  border: 2px solid #8d8791;
+  border: 2px solid #ffffff;
   border-radius: 30px;
-  margin-top: 150px;
+  margin-top: 90px;
   padding-bottom: 10px;
   display: inline-block;
   padding-top: 12px;
   margin-left: 30px;
 }
+
 .bg-light {
   background-color: transparent !important;
 }
@@ -299,10 +287,10 @@ button {
   margin-left: 25px;
 }
 
-.banner_taital {
+.banner_title {
   width: 100%;
   float: left;
-  margin-top: 85px;
+  margin-top: 5px;
 }
 
 body {
@@ -451,7 +439,7 @@ body {
   width: 100%;
   float: left;
   text-align: center;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   padding-bottom: 40px;
   margin: 0px;
 }
@@ -823,6 +811,7 @@ a:hover {
   width: 100%;
   height: auto;
   background: #0c0116;
+  /* margin-top: -80px; */
 }
 
 .shoes_img {
@@ -853,6 +842,9 @@ a:hover {
   margin: auto;
 }
 
+.retard-alert {
+  transform: translate(0, 80px);
+}
 
 .techplanet-bg-carousel {
   background-color: rgba(107, 108, 115, 0.87);
@@ -860,6 +852,22 @@ a:hover {
   background-size: cover;
   background-blend-mode: darken;
   height: 540px;
+  /* margin-top: 80px; */
+}
+
+.techplanet-promo {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 14pt;
+}
+
+.techplanet-promo_2 {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 14pt;
+    margin-top: 90px;
 }
 
 .techplanet-preview {

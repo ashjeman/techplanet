@@ -18,8 +18,8 @@
       <link rel="stylesheet" href="{{ asset('css/style.css') }}">
       <!-- Responsive-->
       <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-      <!-- fevicon -->
-      <link rel="icon" href="{{ asset('images/fevicon.png') }}" type="image/gif" />
+      <!-- favicon -->
+      <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="{{ asset('css/jquery.mCustomScrollbar.min.css') }}">
       <!-- Tweaks for older IEs-->
