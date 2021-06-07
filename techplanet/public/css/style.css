@@ -983,6 +983,10 @@ a:hover {
   color: #6dcfe0;
 }
 
+.techplanet-footer {
+    display: flex;
+}
+
 .copyright {
   width: 100%;
   float: left;

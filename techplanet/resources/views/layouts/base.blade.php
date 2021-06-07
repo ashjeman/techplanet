@@ -39,7 +39,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3 techplanet-header">
-					<div class="logo techplanet-logo"><a href="/"><img src="images/main/logo.png"></a></div>
+					<div class="logo techplanet-logo"><a href="/"><img src="{{ asset('images/main/logo.png') }}"></a></div>
 					<h1 class="techplanet-title">TECHPLANET</h1>
 				</div>
 				<div class="col-sm-9">
@@ -53,8 +53,8 @@
                            <a class="nav-item nav-link" href="/store">Store</a>
                            <a class="nav-item nav-link" href="/category">Categories</a>
                            <a class="nav-item nav-link" href="/about-us">About Us</a>
-                           <a class="nav-item nav-link last" href="#"><img src="images/main/search_icon.png"></a>
-                           <a class="nav-item nav-link last" href="contact.html"><img src="images/main/shop_icon.png"></a>
+                           <a class="nav-item nav-link last" href="#"><img src="{{ asset('images/main/search_icon.png') }}"></a>
+                           <a class="nav-item nav-link last" href="contact.html"><img src="{{ asset('images/main/shop_icon.png') }}"></a>
                         </div>
                     </div>
                     </nav>
@@ -70,45 +70,49 @@
     	<div class="container">
     		<div class="mail_section">
     			<div class="row">
-    				<div class="col-sm-6 col-lg-2">
-    					<div><a href="#"><img src="images/footer-logo.png"></a></div>
+    				<div class="col-sm-4 col-lg-3 techplanet-footer">
+    					<div class="logo techplanet-logo"><a href="/">
+                            <img src="{{ asset('images/main/logo.png') }}">
+                        </a></div>
+                        <h1 class="techplanet-title">TECHPLANET</h1>
     				</div>
-    				<div class="col-sm-6 col-lg-2">
-    					<div class="footer-logo"><img src="images/phone-icon.png"><span class="map_text">(71) 1234567890</span></div>
-    				</div>
+    				{{-- <div class="col-sm-6 col-lg-2">
+    					<div class="footer-logo"><img src="{{ asset('images/phone-icon.png') }}"><span class="map_text">(+60) 1234567890</span></div>
+    				</div> --}}
     				<div class="col-sm-6 col-lg-3">
-    					<div class="footer-logo"><img src="images/email-icon.png"><span class="map_text">Demo@gmail.com</span></div>
+    					<div class="footer-logo"><img src="{{ asset('images/email-icon.png') }}"><span class="map_text">Demo@gmail.com</span></div>
+    					<div class="footer-logo"><img src="{{ asset('images/phone-icon.png') }}"><span class="map_text">(+60) 1234567890</span></div>
     				</div>
     				<div class="col-sm-6 col-lg-3">
     					<div class="social_icon">
     						<ul>
-    							<li><a href="#"><img src="images/fb-icon.png"></a></li>
-    							<li><a href="#"><img src="images/twitter-icon.png"></a></li>
-    							<li><a href="#"><img src="images/in-icon.png"></a></li>
-    							<li><a href="#"><img src="images/google-icon.png"></a></li>
+    							<li><a href="#"><img src="{{ asset('images/fb-icon.png') }}"></a></li>
+    							<li><a href="#"><img src="{{ asset('images/twitter-icon.png') }}"></a></li>
+    							<li><a href="#"><img src="{{ asset('images/in-icon.png') }}"></a></li>
+    							<li><a href="#"><img src="{{ asset('images/google-icon.png') }}"></a></li>
     						</ul>
     					</div>
     				</div>
-    				<div class="col-sm-2"></div>
+    				<div class="col-sm-2 delivery_text">Follow us on social media!</div>
     			</div>
     	    </div>
-    	    <div class="footer_section_2">
+    	    {{-- <div class="footer_section_2">
 		        <div class="row">
     		        <div class="col-sm-4 col-lg-2">
-    		        	<p class="dummy_text"> ipsum dolor sit amet, consectetur ipsum dolor sit amet, consectetur  ipsum dolor sit amet,</p>
+    		        	<p class="dummy_text">Your place, your style, your way.</p>
     		        </div>
     		        <div class="col-sm-4 col-lg-2">
     		        	<h2 class="shop_text">Address </h2>
-    		        	<div class="image-icon"><img src="images/map-icon.png"><span class="pet_text">No 40 Baria Sreet 15/2 NewYork City, NY, United States.</span></div>
+    		        	<div class="image-icon"><img src="{{ asset('images/map-icon.png') }}"><span class="pet_text">Techplanet HQ, Jalan Gombak, 53100, Selangor, Malaysia</span></div>
     		        </div>
     		        <div class="col-sm-4 col-md-6 col-lg-3">
-    				    <h2 class="shop_text">Our Company </h2>
+    				    <h2 class="shop_text">Link</h2>
     				    <div class="delivery_text">
     				    	<ul>
-    				    		<li>Delivery</li>
-    				    		<li>Legal Notice</li>
+    				    		<li>Store</li>
     				    		<li>About us</li>
-    				    		<li>Secure payment</li>
+    				    		<li>Legal Notice</li>
+    				    		<li>Payment</li>
     				    		<li>Contact us</li>
     				    	</ul>
     				    </div>
@@ -125,16 +129,9 @@
     				    	</ul>
     				    </div>
     			</div>
-    			<div class="col-sm-6 col-lg-2">
-    				<h2 class="adderess_text">Newsletter</h2>
-    				<div class="form-group">
-                        <input type="text" class="enter_email" placeholder="Enter Your email" name="Name">
-                    </div>
-                    <button class="subscribr_bt">Subscribe</button>
-    			</div>
     			</div>
     	        </div>
-	        </div>
+	        </div> --}}
     	</div>
     </div>
 	<!-- section footer end -->
