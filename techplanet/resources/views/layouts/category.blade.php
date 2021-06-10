@@ -1,6 +1,7 @@
 @extends('layouts.base')
 @section('content')
 
+<!--this is category file-->
 
 <main>
 
