@@ -19,3 +19,7 @@ Route::get('/', [HomeController::class, 'view']);
 Route::get('/test', function () {
     return view('layouts.test');
 });
+
+Route::get('/item', function(){
+    return view('layouts.item');
+});
