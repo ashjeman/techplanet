@@ -25,5 +25,5 @@ Route::get('/item', function(){
 });
 
 Route::get('/category', function(){
-    return view('layouts    .category    ');
+    return view('layouts.category');
 });
