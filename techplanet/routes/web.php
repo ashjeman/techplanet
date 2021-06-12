@@ -23,3 +23,7 @@ Route::get('/test', function () {
 Route::get('/item', function(){
     return view('layouts.item');
 });
+
+Route::get('/category', function(){
+    return view('layouts    .category    ');
+});
