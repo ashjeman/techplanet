@@ -1,125 +1,142 @@
 @extends('layouts.base')
 @section('content')
 
-<!--this is category file comment-->
 
-<main>
-
-
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Category</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="album py-5 bg-light">
+<div class="collection_section layout_padding">
     <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-<!--audio-->
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><a href="#"><img src="images/audio/razerkraken.png"></a></svg>
-            <div class="card-body">
-              <p class="card-text"></p><center>AUDIOS</center></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><a href="#"><img src="images/gpu/rtx.png"></a></svg>
-<!--gpu-->
-            <div class="card-body">
-              <p class="card-text"><center>GRAPHIC CARDS</center></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="5" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><a href="#"><img src="images/keyboard_mouse/logitechmouse.png"></a></svg>
-
-            <div class="card-body">
-              <p class="card-text"><center>MOUSES</center></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><a href="#"><img src="images/keyboard_mouse/razerkeyboard1.png"></a></svg>
-<!--keyboard-->
-            <div class="card-body">
-              <p class="card-text"><center>KEYBOARDS</center></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><a href="#"><img src="images/laptop/asuslaptop.png"></a></svg>
-<!--laptop  -->
-            <div class="card-body">
-              <p class="card-text"><center>LAPTOPS</center></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><a href="#"><img src="images/monitor/asusmonitor.png"></a></svg>
-<!--monitor-->
-            <div class="card-body">
-              <p class="card-text"><center>MONITORS</center></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
-                <small class="text-muted">1 hr</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-      </div>
+        <h1 class="new_text"><strong>New Arrivals Products</strong></h1>
+        <p class="consectetur_text">Discover your favourite top-of-the-line product in our category from various tech stores.</p>
     </div>
-  </div>
+</div>
+<div class="layout_padding gallery_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="best_shoes">
 
-</main>
-
+                    <div class="shoes_icon"><img src="images/monitor/asusmonitor.png"></div>
+                    <div class="star_text">
+                        <p class="best_text">Monitor</p>
+                        <div class="left_part">
+                            <ul>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="shoes_price">$ <span style="color: #ff4e5b;">60</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="best_shoes">
+                    <div class="shoes_icon"><img src="images/laptop/asuslaptop.png"></div>
+                    <div class="star_text">
+                        <p class="best_text">Laptop</p>
+                        <div class="left_part">
+                            <ul>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="shoes_price">$ <span style="color: #ff4e5b;">400</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="best_shoes">
+                    <div class="shoes_icon"><img src="images/keyboard_mouse/razerkeyboard1.png"></div>
+                    <div class="star_text">
+                        <p class="best_text">Keyboard</p>
+                        <div class="left_part">
+                            <ul>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="shoes_price">$ <span style="color: #ff4e5b;">50</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="best_shoes">
+                    <div class="shoes_icon"><img src="images/keyboard_mouse/logitechmouse.png"></div>
+                    <div class="star_text">
+                        <p class="best_text">Mouse</p>
+                        <div class="left_part">
+                            <ul>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="shoes_price">$ <span style="color: #ff4e5b;">70</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="best_shoes">
+                    <div class="shoes_icon"><img src="images/GPU/rtx3080.png"></div>
+                    <div class="star_text">
+                        <p class="best_text">GPU</p>
+                        <div class="left_part">
+                            <ul>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="shoes_price">$ <span style="color: #ff4e5b;">100</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="best_shoes">
+                    <div class="shoes_icon"><img src="images/audio/razerkraken.png"></div>
+                    <div class="star_text">
+                        <p class="best_text">AUDIO</p>
+                        <div class="left_part">
+                            <ul>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                                <li><a href="#"><img src="images/star-icon.png"></a></li>
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="shoes_price">$ <span style="color: #ff4e5b;">90</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 @endsection
