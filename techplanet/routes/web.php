@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ItemController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,5 @@ Route::get('/item', function(){
 Route::get('/category', function(){
     return view('layouts.category');
 });
+
+Route::get('items', [ItemController::class, 'getData']);

@@ -17,6 +17,7 @@
                     <img src="images/GPU/asus_tuf_3080.png" alt="">
                 </div>
                 <div class="product_spec">
+                    <h1 class="pricetag"><strong>RM 3800</strong></h1>
                     <div class="new_text"> <strong>Product Specifications</strong> </div>
                     <div class="spec_details">
                         Category: <br>

@@ -418,6 +418,13 @@ body {
   color: #0c0116;
 }
 
+.pricetag {
+    width: 100%;
+    float: left;
+    font-size: 35pt;
+    color: #0c0116;
+  }
+
 .collection_section_2 {
   width: 100%;
   float: left;
