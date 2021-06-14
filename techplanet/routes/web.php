@@ -17,6 +17,10 @@ use App\Http\Controllers\ItemController;
 
 Route::get('/', [HomeController::class, 'view']);
 
+Route::get('/about-us', function() {
+    return view('layouts.about');
+});
+
 Route::get('/test', function () {
     return view('layouts.test');
 });

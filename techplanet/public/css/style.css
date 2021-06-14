@@ -990,6 +990,19 @@ a:hover {
   color: #6dcfe0;
 }
 
+.home-about-link:hover {
+    color: #fff;
+  }
+
+
+.about-section {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 4em 2em;
+
+}
+
 .techplanet-footer {
     display: flex;
 }
