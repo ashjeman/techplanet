@@ -4,23 +4,18 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 
 class Category extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'categoryID',
         'cat_name',
-        "cat_img"
+        'cat_img'
     ];
 
-    //relations//
+
     public function item(){
         return $this -> hasMany(Item::class);
     }
-    //endRelations//
-
 }

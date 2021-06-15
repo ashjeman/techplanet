@@ -4,15 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 
 class Order extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'orderID',
         'order_date',
         'tracking_no',
         'quantity',
@@ -21,10 +18,14 @@ class Order extends Model
         'custID',
         'storeID',
         'courierID'
-    ];
+    ]
 
     public function store(){
         return $this -> belongsTo(Store::class);
+    }
+
+    public function user(){
+        return $this -> belongsTo(User::class);
     }
 
     public function item(){
