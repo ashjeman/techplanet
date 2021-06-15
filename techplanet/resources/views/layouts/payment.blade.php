@@ -110,6 +110,20 @@
                 <option>Choose...</option>
                 <option value="1">Kelantan</option>
                 <option value="2">Terengganu</option>
+                <option value="3">Johor</option>
+                <option value="4">Kedah</option>
+                <option value="5">Melaka</option>
+                <option value="6">Negeri Sembilan</option>
+                <option value="7">Pahang</option>
+                <option value="8">Penang</option>
+                <option value="9">Perak</option>
+                <option value="10">Perlis</option>
+                <option value="11">Sabah</option>
+                <option value="12">Sarawak</option>
+                <option value="13">Selangor</option>
+                <option value="14">Kuala Lumpur</option>
+                <option value="15">Labuan</option>
+                <option value="16">Putrajaya</option>
               </select>
             </div>
 
