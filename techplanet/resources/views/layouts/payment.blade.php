@@ -1,15 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.83.1">
-    <title>Checkout example · Bootstrap v5.0</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
-
+@extends('layouts.base')
+@section('content')
 
 
     <!-- Bootstrap core CSS -->
@@ -171,19 +161,4 @@
     </div>
   </main>
 
-  <footer class="my-5 pt-5 text-muted text-center text-small">
-    <p class="mb-1">&copy; 2017–2021 Company Name</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Support</a></li>
-    </ul>
-  </footer>
-</div>
-
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  </body>
-</html>
+@endsection
