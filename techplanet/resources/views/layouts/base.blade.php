@@ -26,7 +26,7 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- owl stylesheets -->
       <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-      <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+      {{-- <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}"> --}}
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -53,8 +53,13 @@
                            <a class="nav-item nav-link" href="/store">Store</a>
                            <a class="nav-item nav-link" href="/category">Categories</a>
                            <a class="nav-item nav-link" href="/about-us">About Us</a>
-                           <a class="nav-item nav-link last" href="#"><img src="{{ asset('images/main/search_icon.png') }}"></a>
-                           <a class="nav-item nav-link last" href="contact.html"><img src="{{ asset('images/main/shop_icon.png') }}"></a>
+                           <div class="nav-ite nav-link dropdown">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    Account
+                                </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Sign in</a>
+                            </div>
                         </div>
                     </div>
                     </nav>
@@ -148,7 +153,7 @@
       <script src="{{ asset('js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
       <script src="{{ asset('js/custom.js') }}"></script>
       <!-- javascript -->
-      <script src="{{ asset('js/owl.carousel.js') }}"></script>
+      {{-- <script src="{{ asset('js/owl.carousel.js') }}"></script> --}}
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
       <script>
          $(document).ready(function(){

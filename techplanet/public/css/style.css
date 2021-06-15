@@ -252,8 +252,8 @@ button {
   color: #db5660;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 0.9rem;
-  padding-left: 1.6rem;
+  padding-right: 0.6rem;
+  padding-left: 1.1rem;
 }
 
 .last {
@@ -999,8 +999,29 @@ a:hover {
     width: 100%;
     float: left;
     text-align: center;
-    padding: 4em 2em;
+    padding: 4em 8em;
+}
 
+.about-us-image {
+    padding: 20px;
+}
+
+.about-us-text {
+    color: white;
+    font-size: 20px;
+}
+
+.about-us-text-small {
+    color: white;
+    font-size: 15px;
+}
+
+.bg-blue {
+    display: table;
+    background-image: url("../images/about/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .techplanet-footer {
