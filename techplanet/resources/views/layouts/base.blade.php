@@ -53,13 +53,23 @@
                            <a class="nav-item nav-link" href="/store">Store</a>
                            <a class="nav-item nav-link" href="/category">Categories</a>
                            <a class="nav-item nav-link" href="/about-us">About Us</a>
-                           <div class="nav-ite nav-link dropdown">
-                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                    Account
-                                </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Sign in</a>
-                            </div>
+                           @if (Route::has('login'))
+                                <div class="nav-item nav-link dropdown">
+                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                        Account
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        @auth
+                                            <a class="dropdown-item" href="{{ url('/dashboard') }}">Dashboard</a>
+                                        @else
+                                            <a class="dropdown-item" href="{{ route('login') }}">Log in</a>
+
+                                            @if (Route::has('register'))
+                                                <a class="dropdown-item" href="{{ route('register') }}">Register</a>
+                                            @endif
+                                        @endauth
+                                </div>
+                            @endif
                         </div>
                     </div>
                     </nav>
