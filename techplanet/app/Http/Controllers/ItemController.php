@@ -7,9 +7,14 @@ use App\Models\Item;
 
 class ItemController extends Controller
 {
-    public function index(){
-        $item = Item::all();
-        return view('layout.item', compact('item'));
+    function index(){
+        $data = Item::all();
+        return view('layouts.item', ['item'=>$data]);
+    }
+
+    function getData($id){
+        $details =  Item::find($id);
+        return view('layouts.item', ['item'=>$details]);
     }
 
 

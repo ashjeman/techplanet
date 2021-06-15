@@ -37,4 +37,6 @@ class Item extends Model
         return $this -> belongsTo(Store::class);
     }
     //endRelations//
+
+    protected $primaryKey = 'itemid';
 }

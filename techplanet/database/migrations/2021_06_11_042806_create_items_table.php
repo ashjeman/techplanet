@@ -22,7 +22,7 @@ class CreateItemsTable extends Migration
             $table->integer('item_available_unit');
             $table->float('item_rating');
             $table->integer('item_warranty');
-            $table->text('item_desc'); //yg ni aku tambah (item descripion) - acap
+            $table->text('item_desc'); //yg ni aku tambah (item description)
 
             //FK
             $table->foreignId('storeID')->constrained('stores');

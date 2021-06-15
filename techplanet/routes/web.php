@@ -25,9 +25,11 @@ Route::get('/test', function () {
     return view('layouts.test');
 });
 
-Route::get('/item', function(){
+/*Route::get('/item', function(){
     return view('layouts.item');
-});
+});*/
+
+Route::get('item/{id}', [ItemController::class, 'getData']);
 
 Route::get('/category', function(){
     return view('layouts.category');
