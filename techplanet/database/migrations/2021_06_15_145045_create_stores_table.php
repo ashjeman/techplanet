@@ -14,12 +14,13 @@ class CreateStoresTable extends Migration
     public function up()
     {
         Schema::create('stores', function (Blueprint $table) {
-            $table->integer('storeID');
+            $table->id();
             $table->string('store_name');
             $table->text('store_add');
             $table->string('store_email');
             $table->string('store_phone');
             $table->float('store_rating');
+            $table->timestamps();
         });
     }
 

@@ -14,7 +14,7 @@ class CreateItemsTable extends Migration
     public function up()
     {
         Schema::create('items', function (Blueprint $table) {
-            $table->integer('itemID');
+            $table->id();
             $table->string('item_brand');
             $table->string('item_model');
             $table->string('item_chipset');
@@ -22,9 +22,10 @@ class CreateItemsTable extends Migration
             $table->integer('item_available_unit');
             $table->float('item_rating');
             $table->integer('item_warranty');
-            $table->text('item_desc'); //yg ni aku tambah (item description)
-
-            //F
+            $table->text('item_desc'); //yg ni aku tambah (item descripion) - acap
+            $table->foreignId('storeID')->constrained('stores');
+            $table->foreignId('categoryID')->constrained('categories');
+            $table->timestamps();
         });
     }
 
