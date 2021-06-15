@@ -13,7 +13,8 @@ class Category extends Model
 
     protected $fillable = [
         'categoryID',
-        'category_name'
+        'cat_name',
+        "cat_img"
     ];
 
     //relations//

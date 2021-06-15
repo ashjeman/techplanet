@@ -21,10 +21,7 @@ class CreateOrdersTable extends Migration
             $table->float('total_price');
 
             //FK
-            $table->foreignId('itemID')->constrained('items');
-            $table->foreignId('custID')->constrained('customers');
-            $table->foreignId('storeID')->constrained('stores');
-            $table->foreignId('courierID')->constrained('couriers');
+
         });
     }
 

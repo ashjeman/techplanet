@@ -36,3 +36,8 @@ Route::get('/category', function(){
 });
 
 Route::get('items', [ItemController::class, 'getData']);
+
+Route::get('/', function () {
+    $category = DB::table('categories')->get();
+    return view('layouts.category', ['categories' => $category]);
+});

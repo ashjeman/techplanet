@@ -25,8 +25,6 @@ class CreateItemsTable extends Migration
             $table->text('item_desc'); //yg ni aku tambah (item description)
 
             //FK
-            $table->foreignId('storeID')->constrained('stores');
-            $table->foreignId('categoryID')->constrained('categories');
         });
     }
 
