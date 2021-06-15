@@ -20,6 +20,7 @@ From this website, our customers can easily browse through the items and buy dir
 Our objective for this website is to make sure our customer have easy access to browse through catalogue components and items for computers, with friendly user interface.
 
 ## Features and functionalities
+- User can login into the page
 - User can easily browse through the items and stores
 - User choose the quantity of items
 - User can choose payment option
