@@ -39,3 +39,7 @@ Route::get('/category', function () {
     $category = DB::table('categories')->get();
     return view('layouts.category', ['categories' => $category]);
 });
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
