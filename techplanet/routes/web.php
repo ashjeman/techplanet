@@ -31,13 +31,11 @@ Route::get('/test', function () {
 
 Route::get('item/{id}', [ItemController::class, 'getData']);
 
-Route::get('/category', function(){
-    return view('layouts.category');
-});
+
 
 Route::get('items', [ItemController::class, 'getData']);
 
-Route::get('/', function () {
+Route::get('/category', function () {
     $category = DB::table('categories')->get();
     return view('layouts.category', ['categories' => $category]);
 });

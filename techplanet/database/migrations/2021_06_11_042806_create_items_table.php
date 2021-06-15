@@ -24,7 +24,7 @@ class CreateItemsTable extends Migration
             $table->integer('item_warranty');
             $table->text('item_desc'); //yg ni aku tambah (item description)
 
-            //FK
+            //F
         });
     }
 
