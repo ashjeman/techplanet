@@ -41,7 +41,7 @@ Courier  | checkout            |                           | /checkout -> Checko
 ![ERD](https://i.ibb.co/vsjWqZs/ERDNew.jpg)
 
 ## Sequence Diagram
-![Sequence Diagram](https://ibb.co/wWJ1NPD)
+![Sequence Diagram](https://i.ibb.co/VJxKzgb/Sequence-New.jpg)
 
 ## References
 - https://www.phco.my/cart
