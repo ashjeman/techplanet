@@ -38,7 +38,7 @@ Courier  | checkout            |                           | /checkout -> Checko
 &nbsp;   | about_us            |                           | /about us -> view about_us
 
 ## ERD
-![ERD](https://ibb.co/9qKCF6m)
+![ERD](https://i.ibb.co/vsjWqZs/ERDNew.jpg)
 
 ## Sequence Diagram
 ![Sequence Diagram](https://ibb.co/wWJ1NPD)
