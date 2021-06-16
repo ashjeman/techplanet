@@ -6,7 +6,7 @@ use App\Http\Controllers\ItemController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Web Routes 	id 	item_brand 	item_model 	item_chipset 	item_price 	item_available_unit 	item_rating 	item_warranty 	item_desc 	storeID 	categoryID
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
