@@ -1,7 +1,6 @@
 @extends('layouts.base')
 @section('content')
-<div class="retard-alert"> <!-- someone decided to put this shit at the header,
-    let alone using retarded unconventional naming scheme -->
+<div class="retard-alert">
 <div class="banner_section techplanet-bg-carousel">
 <div class="container-fluid">
 <section class="slide-wrapper">
@@ -108,7 +107,7 @@
 </div>
 </div>
 <div class="techplanet-home-shopnow">
-<h1 class="new_text techplanet-shop-title"><button class="techplanet-shop-button"><strong>Shop Now</strong></button></h1>
+<h1 class="new_text techplanet-shop-title"><button class="techplanet-shop-button" onclick="window.location='{{ url("/category") }}'"><strong>Shop Now</strong></button></h1>
 <p class="techplanet-subtext">Discover your favourite top-of-the-line product in our catalogue from various tech stores.</p>
 </div>
 <div class="techplanet-shop-items">
