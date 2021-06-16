@@ -43,6 +43,44 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/payment', function() {
-    return view('layouts.payment');
+Route::get('/laptops', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.laptops', ['categories' => $category]);
 });
+
+Route::get('/desktops', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.desktops', ['categories' => $category]);
+});
+
+Route::get('/accessories', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.accessories', ['categories' => $category]);
+});
+
+Route::get('/components', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.components', ['categories' => $category]);
+});
+
+Route::get('/printer-and-projector', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.printernprojector', ['categories' => $category]);
+});
+
+Route::get('/storage', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.storage', ['categories' => $category]);
+});
+
+Route::get('/network-components', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.networkcomponents', ['categories' => $category]);
+});
+
+Route::get('/others', function() {
+    $category = DB::table('categories')->get();
+    return view('layouts.others', ['categories' => $category]);
+});
+
+
