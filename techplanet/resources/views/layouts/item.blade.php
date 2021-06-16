@@ -10,7 +10,7 @@
         <p class="spec_details">{{$item['item_desc']}}</p>
             <div class="details">
                 <div class="image_div">
-                    <img src="images/GPU/asus_tuf_3080.png" alt="">
+                    <img src="{{$item['item_img']}}" alt="">
                 </div>
                 <div class="product_spec">
                     <h1 class="pricetag"><strong>RM {{$item['item_price']}}</strong></h1>
@@ -20,11 +20,10 @@
                         Chipset: {{$item['item_chipset']}}<br>
                         Warranty Period: {{$item['item_warranty']}} months<br>
                         Available unit: {{$item['item_available_unit']}}<br>
-                        Store: <br>
-                        Rating: 5.0: {{$item['item_rating']}}<br>
+                        Store: {{$item['storeID']}}<br>
+                        Rating: {{$item['item_rating']}}<br> <br> <br>
 
-                        <button class="buy_bt btn_margin">Buy Now</button>
-                        <button class="more_bt">Add to Cart</button>
+                        <button class="buy_bt">Buy Now</button>
 
                     </div>
                 </div>

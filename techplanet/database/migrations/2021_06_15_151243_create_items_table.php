@@ -23,6 +23,7 @@ class CreateItemsTable extends Migration
             $table->float('item_rating');
             $table->integer('item_warranty');
             $table->text('item_desc'); //yg ni aku tambah (item descripion) - acap
+            $table->string('item_img');
             $table->foreignId('storeID')->constrained('stores');
             $table->foreignId('categoryID')->constrained('categories');
             $table->timestamps();
