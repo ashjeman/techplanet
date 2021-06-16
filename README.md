@@ -47,3 +47,11 @@ Courier  | checkout            |                           | /checkout -> Checko
 - https://www.phco.my/cart
 - https://www.techhypermart.com/
 - https://shopee.com.my/
+
+## Project Screen Captured and Explanation
+
+
+### Challenge and Difficulties
+- harder to comprehend from online learning
+- difficult to work as a group because of no physical meeting
+- slow internet can resort to hard communication
