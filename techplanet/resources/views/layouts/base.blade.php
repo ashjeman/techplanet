@@ -48,19 +48,30 @@
                         <span class="navbar-toggler-icon"></span>
                         </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
+                        <div class="navbar-nav ml-auto">
                            <a class="nav-item nav-link" href="/">Home</a>
-                           <a class="nav-item nav-link" href="/store">Store</a>
-                           <a class="nav-item nav-link" href="/category">Categories</a>
+                           <a class="nav-item nav-link" href="/category">Store</a>
                            <a class="nav-item nav-link" href="/about-us">About Us</a>
                            @if (Route::has('login'))
                                 <div class="nav-item nav-link dropdown">
                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                        Account
+                                        @auth
+                                            {{ Auth::user()->name }}
+                                        @else
+                                            Account
+                                        @endauth
                                     </button>
                                     <div class="dropdown-menu">
                                         @auth
-                                            <a class="dropdown-item" href="{{ url('/dashboard') }}">Dashboard</a>
+                                            <a class="dropdown-item" href="{{ url('/payment') }}">Orders</a> <!-- Ahmad, tolong letak link dlm ni thanks -->
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="{{ url('/user/profile') }}">Edit Profile</a>
+                                            <form method="POST" action="{{ route('logout') }}">
+                                                @csrf
+                                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                                onclick="event.preventDefault();
+                                                       this.closest('form').submit();">Log Out</a>
+                                            </form>
                                         @else
                                             <a class="dropdown-item" href="{{ route('login') }}">Log in</a>
 
