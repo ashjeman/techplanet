@@ -26,6 +26,7 @@ class CreateItemsTable extends Migration
             $table->string('item_img');
             $table->foreignId('storeID')->constrained('stores');
             $table->foreignId('categoryID')->constrained('categories');
+            $table->string('item_link');
             $table->timestamps();
         });
     }

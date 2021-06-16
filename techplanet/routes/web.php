@@ -44,7 +44,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/laptops', function() {
-    $category = DB::table('categories')->get();
+    $category = DB::table('items')->get();
     return view('layouts.laptops', ['categories' => $category]);
 });
 
