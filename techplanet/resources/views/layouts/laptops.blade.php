@@ -16,7 +16,7 @@
         <div class="col-sm-4">
             <div class="best_shoes">
                 <p class="best_text" a class="nav" href=item/{{ $test->id }}>{{ $test->name }}</p>
-                <div class="shoes_icon"><img src={{ $test->img_link }}></div>
+                <div class="shoes_icon"><img src={{ $test->img_link}}></div>
                 <div class="star_text">
                     <div class="left_part">
                         <ul>
