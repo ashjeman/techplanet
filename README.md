@@ -49,6 +49,27 @@ Courier  | checkout            |                           | /checkout -> Checko
 - https://shopee.com.my/
 
 ## Project Screen Captured and Explanation
+![image](https://user-images.githubusercontent.com/82203224/122252306-cd385180-cefd-11eb-9a88-1cf7fcd29be4.png)
+This is our TECHPLANET homepage, you can here we display what item is new and hot in the market right now.
+
+![image](https://user-images.githubusercontent.com/82203224/122252358-d9bcaa00-cefd-11eb-8069-43e2cbd54deb.png)
+This is our store section, in here we include all category for the user to choose what category they want to browse. Once the click the category, it will bring the users to the specific page with the products display.
+
+![image](https://user-images.githubusercontent.com/82203224/122252396-e3461200-cefd-11eb-872f-1e81c7b265e0.png)
+This is about us section. Basically our group pictures and what we do.
+
+![image](https://user-images.githubusercontent.com/82203224/122252449-ef31d400-cefd-11eb-9183-e9d78b1003b1.png)
+This is the login page. At first when you enter TECHPLANET homepage, at the navigation bar right side which is called Account, you can find the login page. The users can login here.
+
+![image](https://user-images.githubusercontent.com/82203224/122252474-f658e200-cefd-11eb-8ac7-f4c391359a62.png)
+This is the register page, you can also find it at the homepage navigation bar on the right side on the Account, and register. The users can register themselves in this website.
+
+![image](https://user-images.githubusercontent.com/82203224/122252511-fe188680-cefd-11eb-8d63-58d24bcaa9ff.png)
+After you have click any category you want, for example laptop, it will bring to the laptop page. When you click on any laptops display here it will bring you to the item details page.
+
+![image](https://user-images.githubusercontent.com/82203224/122252580-0bce0c00-cefe-11eb-8056-ee70e5644b7a.png)
+Last one, this is the checkout form, after you have click buy now on the product. It will bring to this form where the users will need to fill in before they are able to pay.
+
 
 
 ### Challenge and Difficulties
