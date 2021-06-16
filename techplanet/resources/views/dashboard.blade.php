@@ -13,12 +13,6 @@
                     <div class="py-3 uppercase tracking-wide text-2xl font-bold">
                     Your Orders
                     </div>
-                    <div class="grid grid-cols-1 gap-4 divide-y-2 divide-solid">
-                        <div>no</div>
-                        <div>no</div>
-                        <div>no</div>
-                        <div>no</div>
-                    </div>
                 </div>
             </div>
         </div>
