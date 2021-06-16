@@ -16,6 +16,4 @@ class ItemController extends Controller
         $details =  Item::find($id);
         return view('layouts.item', ['item'=>$details]);
     }
-
-
-}
+};

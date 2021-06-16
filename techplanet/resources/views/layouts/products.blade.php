@@ -26,6 +26,7 @@
                             <li><a href="#"><img src="images/star-icon.png"></a></li>
                         </ul>
                     </div>
+                    <button class="buy_bt btn_margin">Buy Now</button>
                     <div class="right_part">
                         <div class="shoes_price">$ <span style="color: #ff4e5b;">60</span></div>
                     </div>
