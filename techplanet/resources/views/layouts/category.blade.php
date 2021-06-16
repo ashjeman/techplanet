@@ -5,7 +5,7 @@
 
 <div class="collection_section layout_padding">
     <div class="container">
-        <h1 class="new_text"><strong>New Arrivals Products</strong></h1>
+        <h1 class="new_text"><strong>Category</strong></h1>
         <p class="consectetur_text">Discover your favourite top-of-the-line product in our category from various tech stores.</p>
     </div>
 </div>
