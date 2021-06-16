@@ -21,6 +21,11 @@ Route::get('/about-us', function() {
     return view('layouts.about');
 });
 
+Route::get('/payment', function() {
+    return view('layouts.payment');
+});
+
+
 Route::get('/test', function () {
     return view('layouts.test');
 });

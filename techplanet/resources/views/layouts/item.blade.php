@@ -23,8 +23,7 @@
                         Store: {{$item['storeID']}}<br>
                         Rating: {{$item['item_rating']}}<br> <br> <br>
 
-                        <button class="buy_bt">Buy Now</button>
-
+                        <button class="buy_bt" onclick="window.location='{{ url("/payment") }}'">Buy Now</button>
                     </div>
                 </div>
             </div>

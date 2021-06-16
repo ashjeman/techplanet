@@ -27,7 +27,7 @@
                             <li><a href="#"><img src="images/star-icon.png"></a></li>
                         </ul>
                     </div>
-                   <div><h1><a class="nav" href={{ $test->cat_link }} span style="color: #ff4e5b;">See</a></h1> </div>
+                   <button class="buy_bt" style="float:right;" onclick="window.location='{{ url("/laptops") }}'" href={{ $test->cat_link }}>Buy Now</button>
                 </div>
             </div>
         </div>
