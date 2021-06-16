@@ -38,10 +38,10 @@ Courier  | checkout            |                           | /checkout -> Checko
 &nbsp;   | about_us            |                           | /about us -> view about_us
 
 ## ERD
-![ERD](https://i.imgur.com/0fzEj8X.jpg)
+![ERD](https://ibb.co/9qKCF6m)
 
 ## Sequence Diagram
-![Sequence Diagram](https://i.imgur.com/spQr9iP.png)
+![Sequence Diagram](https://ibb.co/wWJ1NPD)
 
 ## References
 - https://www.phco.my/cart
