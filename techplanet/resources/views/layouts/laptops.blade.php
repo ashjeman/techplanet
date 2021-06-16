@@ -15,7 +15,7 @@
         @foreach ($categories as $test)
         <div class="col-sm-4">
             <div class="best_shoes">
-                <p class="best_text" a class="nav" href=item/{{ $test->id }}>{{ $test->item_brand }}</p>
+                <p class="best_text" a class="nav" href=item/{{ $test->id }}>{{ $test->item_name }}</p>
                 <div class="shoes_icon"><img src={{ $test->item_img }}></div>
                 <div class="star_text">
                     <div class="left_part">

@@ -18,7 +18,7 @@ class CreateItemsTable extends Migration
             $table->string('item_brand');
             $table->string('item_model');
             $table->string('item_chipset');
-            $table->float('item_price');
+            $table->string('item_price');
             $table->integer('item_available_unit');
             $table->float('item_rating');
             $table->integer('item_warranty');
