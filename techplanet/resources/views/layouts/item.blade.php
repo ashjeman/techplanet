@@ -6,7 +6,7 @@
 <div class="about_main layout_padding">
     <div class="collection_section">
     <div class="container">
-        <h1 class="item_name"><strong>{{$item['item_brand']}} {{$item['item_model']}} </strong></h1>
+        <h1 class="item_name"><strong>{{$item['item_name']}} </strong></h1>
         <p class="spec_details">{{$item['item_desc']}}</p>
             <div class="details">
                 <div class="image_div">
