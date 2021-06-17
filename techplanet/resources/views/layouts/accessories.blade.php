@@ -27,7 +27,7 @@
                             <li><a href="#"><img src="images/star-icon.png"></a></li>
                         </ul>
                     </div>
-                   <div><h1><a class="nav" href=item/{{ $test->id }} span style="color: #ff4e5b;">See</a></h1> </div>
+                    <div><h1><a class="nav" href=item/{{ $test->id }} span style="color: #ff4e5b;">See</a></h1> </div>
                 </div>
             </div>
         </div>
