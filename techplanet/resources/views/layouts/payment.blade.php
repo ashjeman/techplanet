@@ -34,7 +34,7 @@
     <div class="row g-5">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-        <a href="" class="btn btn-danger">Back To Main Page</a>
+        <a href="/" class="btn btn-danger">Back To Main Page</a>
           <hr>
           <h4 class="mb-3">Billing address</h4>
     <form class="needs-validation" novalidate>
